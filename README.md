@@ -4,7 +4,7 @@ The "Itchat Assistant Project" for company was being programmed by Python 3.8.2
 Name: Stan Zhang
 School: New York University
 Major: Data Analytics
-Email Address: seetness@outlook.com
+Email Address: sz2969@nyu.edu
 ###
 Project Objective: To achieve automatic-reply function on the social platform, WeChat, for a company publicizing itself and getting a better customer service. I utilized the itchat package and some Python basic function to build up this program.
 Project Function: This project can not only record the information and messages sent by the customers but also can send specific message to customers individually, let them get a good feeling when experiencing with this Chatbot.
