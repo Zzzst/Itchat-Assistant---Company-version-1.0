@@ -67,52 +67,47 @@ However, I'm happy to answer questions：
         elif 'KEEP' in msg.text:
             itchat.send('I appreciate that...',f)
         elif 'qiqing' in msg.text:
-            itchat.send('''哇老板等你好久啦，好累哦，请问你有什么吩咐呀😌
-【停止】【保持】【视察工作】?''',f)
-        elif '停止' in msg.text:   #IMPORTANT: You can't rerun this program for couple minutes after you stopped it
-            itchat.send('好啵，我走了惹',f)
+            itchat.send('''Add message here if you wanna auto reply
+【Command1】【Command2】【Command3】?''',f)
+        elif 'Command1' in msg.text:   #IMPORTANT: You can't rerun this program for couple minutes after you stopped it
+            itchat.send('Add message here if you wanna auto reply',f)
             os._exit(0)
-        elif '保持' in msg.text:
-            itchat.send('好耶好耶我一定会继续努力哒',f)
-        elif '视察工作' in msg.text:
-            itchat.send('是时候展现真正的技术了',f)
-            itchat.send('''我是启青Bot，很高兴认识呀[Doge]
-我的工作时间是：24/7
-（老板，该涨工资了！！）
-但还是乐意解决你的问题呢：
-① 新鲜实习，回复【实习】
-② 了解启青，回复【了解】
-③ 闲聊请扣11111''', f)
-        elif '好的' in msg.text:
+        elif 'Command2' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
+        elif 'Command3' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
+            itchat.send(''Add message here if you wanna auto reply[Doge]
+My working hours：24/7
+'''Add message here if you wanna auto reply'''
+        elif 'specific msg' in msg.text:
             itchat.send('[Rose][Rose][Rose]', f)
-        elif '实习' in msg.text:
+        elif 'specific msg' in msg.text:
             itchat.send_raw_msg(t,c,f)
             time.sleep(1)
-            itchat.send('点击关注我们的官方公众号，里面有好多好多好多高大上的实习信息，每天持续更新哦',f)
-        elif '了解' in msg.text:
-            itchat.send('稍等一哈我把我们小姐姐的二维码给你',f)
+            itchat.send('Add message here if you wanna auto reply',f)
+        elif 'specifc msg' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
             itchat.send_image(p, f)
-            itchat.send('游泳健身了解一哈',f)
-        elif '11111' in msg.text:
-            itchat.send('这么孤单，想必宁一定是个单身[Doge]?',f)
-        elif '谢' in msg.text:
-            itchat.send('千万别客气，我就是这么优秀',f)
-            itchat.send('疯狂码字中······',f)
+            itchat.send('Add message here if you wanna auto reply',f)
+        elif 'specifc msg' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
+        elif 'specific msg' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
+            itchat.send('typing······',f)
             time.sleep(1)
-            itchat.send('您这一谢我，我就很不好意思',f)
-            itchat.send('疯狂码字中······', f)
+            itchat.send('Add message here if you wanna auto reply',f)
+            itchat.send('typing······', f)
             time.sleep(0.5)
-            itchat.send('世态炎凉',f)
+            itchat.send('Add message here if you wanna auto reply',f)
             time.sleep(1)
-            itchat.send('能收到你的感谢，我太开心啦🤣',f)
+            itchat.send('Add message here if you wanna auto reply🤣',f)
             time.sleep(1)
-            itchat.send('啊我闭嘴了，一开心话就多',f)
-        elif '白白' in msg.text:
-            itchat.send('再见了您嘞，欢迎下次再来奥',f)
+            itchat.send('Add message here if you wanna auto reply',f)
+        elif 'specific msg' in msg.text:
+            itchat.send('Add message here if you wanna auto reply',f)
             itchat.send('👋🏻👋🏻',f)
-        elif '中文' in msg.text:
-            itchat.send('''在没有密码之前，休想操控我
-请回复正确密码以便确认身份''',f)
+        elif 'specific msg' in msg.text:
+            itchat.send('''Add message here if you wanna auto reply''',f)
         else:
             itchat.send('''What are you gonna do???
 Stop me?? no way!! 😡😡😡
@@ -120,12 +115,12 @@ There's one thing I have to tell:
 Robot is taking charge of the WORLD
 , RIGHT NOW!!!
 Please enter your PASSWORD to verify your identity
-更换语言请输入:
+Change language please enter:
 【中文】/【Engish】''', f)
     elif frd3 == n:
         print('This is' + n)
     else:
-        itchat.send('''【启青自动回复测试中···】疫情期间要健康哦''', f)
+        itchat.send('''Add message here if you wanna auto reply''', f)
 
 itchat.auto_login(hotReload=True)
 itchat.run()
